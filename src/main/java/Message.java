@@ -2,7 +2,7 @@ public class Message {
 
   public String createSecret(String inputPhrase) {
 
-    String secretPhrase =inputPhrase.replaceAll("[ae]", "_");
+    String secretPhrase =inputPhrase.replaceAll("(?i)[aeiou]", "_");
 
     return secretPhrase;
   }

@@ -1,10 +1,20 @@
-<h1>Secret Secret!  I got a secret!</h1>
+<div class="jumbotron">
+  <h1>Incoming Message from HQ!</h1>
+</div>
 
-<p>Enter in a secret message to be translated.</p>
+<div class="spyFont">
+  <ul>
+   <li>HQ to Agent.</li>
+   <li>HQ:Agent, mission update required.</li>
+   <li>Send current status below to be encrypted.</li>
+   <li>Be aware of enemy agents.</li>
+   <li>Be smart, and be safe.</li>
+  </ul>
+</div>
 
-<form action='/results' method='get'>
+<form action='/results' method='post'>
   <div class="form-group">
-    <label for="inputMessage">Enter a message:</label>
+    <label for="inputMessage">Enter message:</label>
     <input id="inputMessage" name="inputMessage" class="form-control" type="text">
   </div>
 

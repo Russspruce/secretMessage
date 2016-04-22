@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MessageTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-04-22T17:26:33" hostname="Andrew-Russos-MacBook-Pro.local" time="0.005">
+<testsuite name="MessageTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-04-22T19:03:43" hostname="Andrew-Russos-MacBook-Pro.local" time="0.012">
   <properties/>
   <testcase name="checkMessage_returnString_h_llo" classname="MessageTest" time="0.001"/>
-  <testcase name="checkMessage_removeMultiple_h_v_" classname="MessageTest" time="0.001"/>
+  <testcase name="checkMessage_removeMultiple_h_v_" classname="MessageTest" time="0.004"/>
   <testcase name="checkCapitalLetters_returnString_Open" classname="MessageTest" time="0.001"/>
-  <testcase name="checkSentence_returnString_longSentence" classname="MessageTest" time="0.001"/>
+  <testcase name="checkSentence_returnString_longSentence" classname="MessageTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

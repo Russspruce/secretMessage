@@ -23,4 +23,12 @@ public class AppTest extends FluentTest {
     goTo("http://localhost:4567/");
     assertThat(pageSource()).contains("Secret Secret");
   }
+
+  @Test
+  public void wordCheck() {
+    goTo("http://localhost:4567/");
+    fill("#inputMessage").with("Awesome!");
+    submit(".btn");
+    assertThat(pageSource()).contains("_w_s_m_!");
+  }
 }

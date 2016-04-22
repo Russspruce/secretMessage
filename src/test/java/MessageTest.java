@@ -10,4 +10,11 @@ public class MessageTest {
     assertEquals(expected, testMessage.createSecret("hello"));
   }
 
+  @Test
+  public void checkMessage_returnString_h_v_() {
+    Message testMessage = new Message();
+    String expected = "h_v-";
+    assertEquals(expected, testMessage.createSecret("have"));
+  }
+
 }

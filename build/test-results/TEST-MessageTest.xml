@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MessageTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2016-04-22T16:33:13" hostname="Andrew-Russos-MacBook-Pro.local" time="0.007">
+<testsuite name="MessageTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2016-04-22T16:45:45" hostname="Andrew-Russos-MacBook-Pro.local" time="0.009">
   <properties/>
-  <testcase name="checkMessage_returnString_hllo" classname="MessageTest" time="0.007">
-    <failure message="org.junit.ComparisonFailure: expected:&lt;h[_]llo&gt; but was:&lt;h[-]llo&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;h[_]llo&gt; but was:&lt;h[-]llo&gt;
+  <testcase name="checkMessage_returnString_h_v_" classname="MessageTest" time="0.006">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;h_v[-]&gt; but was:&lt;h_v[_]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;h_v[-]&gt; but was:&lt;h_v[_]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at MessageTest.checkMessage_returnString_hllo(MessageTest.java:10)
+	at MessageTest.checkMessage_returnString_h_v_(MessageTest.java:17)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -51,6 +51,7 @@
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
+  <testcase name="checkMessage_returnString_hllo" classname="MessageTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

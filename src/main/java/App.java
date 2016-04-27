@@ -19,12 +19,9 @@ public class App {
     post("/results", (request, response) -> { //Switched "get" with "post" to prevent the results from showing in the address bar
       Map<String, Object> model = new HashMap<String, Object>();
       model.put("template", "templates/results.vtl");
-
       String inputtedSecretPhrase = request.queryParams("inputMessage");
-
       Message myMessage = new Message();
       String secretPhrase = myMessage.createSecret(inputtedSecretPhrase);
-
 
       model.put("result", secretPhrase);
 
